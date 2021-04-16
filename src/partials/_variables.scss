@@ -21,6 +21,12 @@ $hero_height: 750px;
     background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
 }
 
+// mediaquery
+
+@mixin tablet {
+    @media (min-width: 800px) { @content; }
+}
+
 // bottoni
 @mixin blue_button {
     background-color: $primar_color;
