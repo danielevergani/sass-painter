@@ -25,3 +25,12 @@
     @include tr_button;
 }
 
+// typo
+
+h3{
+    font-size: $max_size;
+}
+
+p{
+    font-size: $small_size;
+}

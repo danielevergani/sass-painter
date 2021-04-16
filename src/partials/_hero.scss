@@ -2,6 +2,7 @@
     position: relative;
     @include background_hero;
     color: white;
+    
 
     .container__small{
         height: 100%;
@@ -21,14 +22,12 @@
             h1{
                 font-size: 40px;
             }
-            h3{
+            h4{
                 font-size: 25px;
             }
             button{
                 font-size: 20px;
             }
-
         }
-        
     }
 }

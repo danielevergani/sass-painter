@@ -1,5 +1,4 @@
 // colori
-
 $primar_color: #1473e6;
 
 // larghezze altezze
@@ -8,14 +7,12 @@ $regular_container: 800px;
 $hero_height: 750px;
 
 // disposizione con flex
-
 @mixin dispose_justify {
     display: flex;
     justify-content: space-between;
 }
 
 // background
-
 @mixin background_hero {
     width: 100%;
     height: $hero_height;
@@ -25,7 +22,6 @@ $hero_height: 750px;
 }
 
 // bottoni
-
 @mixin blue_button {
     background-color: $primar_color;
     border-radius: 20px;
@@ -41,3 +37,7 @@ $hero_height: 750px;
     padding: 7px 10px;
     color: white;
 }
+
+// typo
+$max_size: 30px;
+$small_size: 20px;
