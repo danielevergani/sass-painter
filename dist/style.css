@@ -1,3 +1,68 @@
-body {
-  background-color: black;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  margin: auto;
+}
+
+.container__small {
+  width: 1280px;
+  margin: auto;
+}
+
+.blue__button {
+  background-color: #1473e6;
+  border-radius: 20px;
+  border: none;
+  padding: 7px 10px;
+  color: white;
+}
+
+.sup__nav {
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sup__nav img {
+  height: 50%;
+}
+.sup__nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.sup__nav ul li {
+  margin: 0 5px;
+}
+
+.inf__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.inf__nav ul {
+  display: flex;
+  list-style: none;
+}
+.inf__nav ul li {
+  margin: 0 15px;
+}
+
+.hero__section {
+  width: 100%;
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://cc-prod.scene7.com/is/image/CCProdAuthor/dt-ps-max-poster-image?$pjpeg$&jpegSize=300&wid=1440");
+  color: white;
+}
+.hero__section .container__small img {
+  width: 80px;
 }

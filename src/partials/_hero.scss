@@ -1,0 +1,10 @@
+.hero__section{
+    @include background_hero;
+    color: white;
+
+    .container__small{
+        img{
+            width: 80px;
+        }
+    }
+}
