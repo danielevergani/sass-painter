@@ -35,5 +35,9 @@ $hero_height: 750px;
 }
 
 @mixin tr_button {
-    
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 7px 10px;
+    color: white;
 }

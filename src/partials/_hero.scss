@@ -1,10 +1,34 @@
 .hero__section{
+    position: relative;
     @include background_hero;
     color: white;
 
     .container__small{
-        img{
-            width: 80px;
+        height: 100%;
+        position: relative;
+        
+        .hero__text__wrapper{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        
+            *{
+                margin: 20px 0;
+            }
+            img{
+                width: 80px;
+            }
+            h1{
+                font-size: 40px;
+            }
+            h3{
+                font-size: 25px;
+            }
+            button{
+                font-size: 20px;
+            }
+
         }
+        
     }
 }

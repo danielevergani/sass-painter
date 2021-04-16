@@ -18,6 +18,10 @@
 // bottoni
 
 .blue__button{
-    @include blue_button
+    @include blue_button;
+}
+
+.transparent__button{
+    @include tr_button;
 }
 
